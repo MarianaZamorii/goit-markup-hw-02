@@ -97,7 +97,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-button {
+.hero-button {
   color: var(--white);
   background-color: var(--iris);
   border-radius: 4px;
@@ -109,7 +109,7 @@ button {
   cursor: pointer;
 }
 
-.button:hover {
+.hero-button:hover {
   background-color: var(--ocean);
 }
 /*END Hero section*/
