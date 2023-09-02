@@ -152,13 +152,17 @@ ul {
 
 .our-team-staff {
   color: var(--navy-blue);
-  background-color: var(--white);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
+.our-paragraph-text {
+  background-color: var(--white);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /*END Our team section*/
 
 /*Our portfolio section*/
@@ -178,6 +182,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+/*END Our portfolio section*/
 
 /*Footer section*/
 .footer-section {
