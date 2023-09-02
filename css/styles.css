@@ -20,7 +20,7 @@ body {
   font-size: 16px;
 }
 
-p {
+.paragraph-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -49,17 +49,18 @@ ul {
 
 /*Logo*/
 .logo {
-  color: var(--navy-blue);
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .logo-accent {
-  color: var(--iris);
+  color: var(--navy-blue);
 }
 /*END Logo*/
 
@@ -70,18 +71,42 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.nav-link:active {
+.nav-link:hover {
   color: var(--ocean);
 }
 
-.contact-link {
+.nav-link:focus {
+  color: var(--ocean);
+}
+
+.nav-links {
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.contact-link:active {
+.nav-links:active {
   color: var(--ocean);
 }
+
+.contact {
+  font-style: normal;
+}
+
+.contact-link {
+  color: var(--slate);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact-link:hover {
+  color: var(--ocean);
+}
+
+.contact-link:focus {
+  color: var(--ocean);
+}
+
 /*END Navigation*/
 
 /*Hero section*/
@@ -95,13 +120,14 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .hero-button {
   color: var(--white);
   background-color: var(--iris);
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -110,8 +136,15 @@ ul {
 }
 
 .hero-button:hover {
+  color: var(--white);
   background-color: var(--ocean);
 }
+
+.hero-button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
 /*END Hero section*/
 
 /*Target section*/
@@ -122,6 +155,10 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
+.target-text {
+}
+
 /*END Target section*/
 
 /*Our team section*/
@@ -173,9 +210,10 @@ footer {
 
 .footer-logo {
   color: var(--cloud);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
