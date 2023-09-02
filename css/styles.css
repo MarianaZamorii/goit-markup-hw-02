@@ -155,6 +155,10 @@ ul {
   text-transform: capitalize;
 }
 
+.our-time-list {
+  background-color: var(--white);
+}
+
 .our-team-staff {
   color: var(--navy-blue);
   font-size: 20px;
@@ -200,7 +204,7 @@ ul {
 }
 
 .logo-accent-f {
-  color: var(--white);
+  color: var(--cloud);
 }
 
 .footer-text {
