@@ -137,6 +137,8 @@ ul {
 }
 
 .target-text {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /*END Target section*/
@@ -155,12 +157,9 @@ ul {
   text-transform: capitalize;
 }
 
-.our-time-list {
-  background-color: var(--white);
-}
-
 .our-team-staff {
   color: var(--navy-blue);
+  background-color: var(--white);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
