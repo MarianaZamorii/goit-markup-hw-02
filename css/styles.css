@@ -66,12 +66,6 @@ ul {
   color: var(--ocean);
 }
 
-.nav-links {
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 .nav-links:active {
   color: var(--ocean);
 }
@@ -190,12 +184,12 @@ ul {
 }
 
 /*Footer section*/
-footer {
+.footer-section {
   background-color: var(--navy-blue);
 }
 
 .footer-logo {
-  color: var(--cloud);
+  color: var(--iris);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -203,6 +197,10 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.logo-accent-f {
+  color: var(--white);
 }
 
 .footer-text {
