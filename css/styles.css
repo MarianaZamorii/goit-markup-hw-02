@@ -141,6 +141,10 @@ ul {
   background-color: var(--cloud);
 }
 
+.our-bg {
+  background-color: var(--white);
+}
+
 .our-team-title {
   color: var(--navy-blue);
   text-align: center;
@@ -158,11 +162,6 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.our-paragraph-text {
-  background-color: var(--white);
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
 /*END Our team section*/
 
 /*Our portfolio section*/
